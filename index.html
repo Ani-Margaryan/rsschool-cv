@@ -40,6 +40,151 @@
          </div>
       </div>
     </header>
-    
+    <main class="main">
+      <div class="container main__container">
+        <section class="section" id="about">
+          <h2 class="section__title">Brief Self-Introduction</h2>
+          <p class="section__text">
+            I am a highly motivated beginner Frontend Developer. A flexible and motivated person with the
+ability to work hard and learn new
+technologies.
+          </p>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2 class="section__title">Contact Information</h2>
+
+          <!-- Contacts must be a list -->
+          <ul class="list">
+            <li class="list__item">
+              <strong>Location:</strong> Yerevan, Armenia
+            </li>
+
+            <li class="list__item">
+              <strong>Email:</strong>
+              <a class="link" href="mailto:anymargaryan@gmail.com">anymargaryan@gmail.com</a>
+            </li>
+
+            <li class="list__item">
+              <strong>GitHub:</strong>
+              <a class="link" href="https://github.com/Ani-Margaryan"> </a>
+            </li>
+            <li class="list__item">
+              <strong>Discord:</strong> anely00
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 class="section__title">Skills</h2>
+
+          <!-- Skills must be a list -->
+          <ul class="list list--grid">
+            <li class="list__item">HTML5 (semantic markup)</li>
+            <li class="list__item">CSS3 (Flexbox, Grid, responsive design)</li>
+            <li class="list__item">JavaScript (ES6+)</li>
+            <li class="list__item">Git & GitHub (branches, PRs, Pages)</li>
+            <li class="list__item">VS Code</li>
+            <li class="list__item">Chrome DevTools</li>
+            <li class="list__item">Basic React (learning)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section__title">Code Example</h2>
+          <p class="section__text">
+            Codewars example (JavaScript). Task: return the middle character(s) of
+            a string.
+          </p>
+
+          <!-- Code must NOT be an image -->
+          <pre class="code-block"><code>function getMiddle(s) {
+  const mid = Math.floor(s.length / 2);
+
+  return s.length % 2 === 0
+    ? s[mid - 1] + s[mid]
+    : s[mid];
+}</code></pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section__title">Work Experience / Projects</h2>
+
+          <article class="project">
+            <h3 class="project__title">CV (RS School)</h3>
+            <p class="project__text">
+              A responsive CV page built with semantic HTML, CSS, and deployed on
+              GitHub Pages following RS School requirements.
+            </p>
+
+            <ul class="list">
+              <li class="list__item">
+                <strong>Skills used:</strong> HTML, CSS, Git, GitHub Pages
+              </li>
+              <li class="list__item">
+                <strong>Source code:</strong>
+                <a class="link" href="https://github.com/Ani-Margaryan/rsschool-cv">
+                  github.com/Ani-Margaryan/rsschool-cv
+                </a>
+              </li>
+              <li class="list__item">
+                <strong>Deployed page:</strong>
+                <a class="link" href="https://Ani-Margaryan.github.io/rsschool-cv/">
+                  Ani-Margaryan.github.io/rsschool-cv/
+                </a>
+              </li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <h3 class="project__title">Tic Tac Toe (Educational Project)</h3>
+            <p class="project__text">
+              A simple browser game created using DOM manipulation, events, and
+              basic game logic.
+            </p>
+
+            <ul class="list">
+              <li class="list__item">
+                <strong>Skills used:</strong> JavaScript, DOM, CSS
+              </li>
+            </ul>
+          </article>
+
+
+          <article class="project">
+            <h3>Internship</h3>
+            <p><strong>Full Learning</strong>  Educational Center</p>
+            <ul class="list">
+                <li class="list__item">
+                    <strong>Skills used:</strong> HTML, CSS, JavaScript
+                </li>
+            </ul>
+        </article>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section__title">Education</h2>
+          <ul class="list">
+            <li class="list__item">
+              <strong>RS School:</strong> JavaScript/Front-end course (in progress)
+            </li>
+            <li class="list__item">
+              <strong>Self-learning:</strong> MDN Web Docs, The Modern JavaScript Tutorial
+            </li>
+            <li class="list__item">
+              <strong>Armenian Code Academy</strong>: Introduction to JavaScript
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="english">
+          <h2 class="section__title">English Language</h2>
+          <p class="section__text">
+            English level: <strong>B2</strong>. 
+          </p>
+        </section>
+      </div>
+    </main>
+
 </body>
 </html>
