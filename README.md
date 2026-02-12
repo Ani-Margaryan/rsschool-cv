@@ -1,3 +1,3 @@
  # RS School CV project
 
-Ani-Margaryan.github.io/rsschool-cv/
+https://ani-margaryan.github.io/rsschool-cv/
